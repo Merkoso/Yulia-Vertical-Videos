@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI‑Ролики | Pack 20 & 50</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .fade-in {animation: fadeIn 0.8s ease-in-out forwards; opacity:0;}
+    @keyframes fadeIn {to{opacity:1;}}
+    .lang-section {display:none;}
+    .lang-button {cursor:pointer; padding:0.5rem 1rem; margin-right:0.5rem; border:1px solid #ccc; border-radius:4px;}
+    .lang-button.active {background-color:#4A5568; color:white;}
+  </style>
+  <script>
+    function showLang(lang) {
+      document.querySelectorAll('[data-lang]').forEach(el => {
+        el.style.display = el.getAttribute('data-lang') === lang ? '' : 'none';
+      });
+      document.querySelectorAll('.lang-button').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang-btn') === lang);
+      });
+    }
+    document.addEventListener('DOMContentLoaded', () => { showLang('ru'); });
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-3xl mx-auto p-6 fade-in">
+    <div class="flex justify-end mb-4">
+      <button data-lang-btn="ru" class="lang-button active" onclick="showLang('ru')">RU</button>
+      <button data-lang-btn="en" class="lang-button" onclick="showLang('en')">EN</button>
+    </div>
+
+    <!-- Russian Version -->
+    <div data-lang="ru">
+      <h1 class="text-2xl font-bold mb-2">AI‑контент под ключ: вертикальные ролики 30–60 с</h1>
+      <p class="mb-4"><a href="https://t.me/yuliya_kastro" target="_blank" class="text-blue-600 underline">Юлия Кастро</a></p>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Тест-ролик</h2>
+        <p>20–30 с — <strong>$20</strong></p>
+        <p class="text-sm text-gray-600">Оплата либо засчитывается в пакет, либо остаётся отдельным, если формат не подойдёт.</p>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Пакеты и цены</h2>
+        <table class="w-full table-auto mb-4 text-left">
+          <thead><tr><th class="px-2 py-1">Пакет</th><th class="px-2 py-1">Кол-во</th><th class="px-2 py-1">$ / ролик</th><th class="px-2 py-1">Итого</th></tr></thead>
+          <tbody>
+            <tr><td class="border px-2 py-1">Pack 20</td><td class="border px-2 py-1">20 шт</td><td class="border px-2 py-1">$30</td><td class="border px-2 py-1">$600</td></tr>
+            <tr><td class="border px-2 py-1">Pack 50</td><td class="border px-2 py-1">50 шт</td><td class="border px-2 py-1">$28</td><td class="border px-2 py-1">$1 400</td></tr>
+            <tr><td class="border px-2 py-1">Creative 50</td><td class="border px-2 py-1">50 шт</td><td class="border px-2 py-1">$30–36</td><td class="border px-2 py-1">$1 500–1 800</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Что входит</h2>
+        <p>AI-картинки → AI-видео → музыка + озвучка → монтаж → финальный просмотр</p>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Правки</h2>
+        <ul class="list-disc list-inside">
+          <li>1 круг включён</li>
+          <li>Доп. мелкий круг — $4</li>
+          <li>Крупный круг (>50 % ролика) — $8</li>
+        </ul>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Вопросы для брифа</h2>
+        <ul class="list-disc list-inside">
+          <li>Если озвучиваем мы — кто утверждает голос?</li>
+          <li>Сценарии нужны от нас или вы даёте свои? (Цены без сценариев)</li>
+          <li>Субтитры планируются или работаем без них?</li>
+          <li>На какой период нужны ролики? (Для расчёта сроков)</li>
+        </ul>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Готовы к тестовому с 21.05.2025</h2>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Оплата</h2>
+        <p>Пакеты: 50 % предоплата / 50 % после финального рендера</p>
+        <p>Тест — без предоплаты</p>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Портфолио</h2>
+        <p>Основные проекты под NDA, но вот открытый пример:</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/hGgmlUeNU-Q" allowfullscreen></iframe>
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/R-5PrnwUSD0" allowfullscreen></iframe>
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/m_xp1reL8jQ" allowfullscreen></iframe>
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/eGeFTS5C1fg" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <div class="text-center mt-8">
+        <a href="https://t.me/merkoso" target="_blank" class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Связаться</a>
+      </div>
+    </div>
+
+    <!-- English Version -->
+    <div data-lang="en">
+      <h1 class="text-2xl font-bold mb-2">AI‑Driven Vertical Videos 30–60 s</h1>
+      <p class="mb-4"><a href="https://t.me/yuliya_kastro" target="_blank" class="text-blue-600 underline">Yulia Kastro</a></p>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Test Reel</h2>
+        <p>20–30 s — <strong>$20</strong></p>
+        <p class="text-sm text-gray-600">Payment applies to package or stays separate if format doesn't fit.</p>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Packages & Pricing</h2>
+        <table class="w-full table-auto mb-4 text-left">
+          <thead><tr><th class="px-2 py-1">Package</th><th class="px-2 py-1">Qty</th><th class="px-2 py-1">$/video</th><th class="px-2 py-1">Total</th></tr></thead>
+          <tbody>
+            <tr><td class="border px-2 py-1">Pack 20</td><td class="border px-2 py-1">20 videos</td><td class="border px-2 py-1">$30</td><td class="border px-2 py-1">$600</td></tr>
+            <tr><td class="border px-2 py-1">Pack 50</td><td class="border px-2 py-1">50 videos</td><td class="border px-2 py-1">$28</td><td class="border px-2 py-1">$1 400</td></tr>
+            <tr><td class="border px-2 py-1">Creative 50</td><td class="border px-2 py-1">50 videos</td><td class="border px-2 py-1">$30–36</td><td class="border px-2 py-1">$1 500–1 800</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">What’s Included</h2>
+        <p>AI images → AI video → music + voice-over → editing → final review</p>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Revisions</h2>
+        <ul class="list-disc list-inside">
+          <li>1 free round</li>
+          <li>Extra minor round — $4</li>
+          <li>Major round (>50 % change) — $8</li>
+        </ul>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Brief Questions</h2>
+        <ul class="list-disc list-inside">
+          <li>If we handle voice-over — who approves the voice?</li>
+          <li>Do you provide scripts or need us to write them? (Current prices exclude scripting)</li>
+          <li>Are subtitles planned or shall we skip them?</li>
+          <li>What period do you need videos for?</li>
+        </ul>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Ready for a test project starting 21 May 2025</h2>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Payment Terms</h2>
+        <p>Packages: 50 % upfront / 50 % upon final delivery</p>
+        <p>Test reel — no upfront</p>
+      </section>
+
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold mb-2">Portfolio</h2>
+        <p>Main projects under NDA, but here’s one open example:</p>
+        <div class="space-y-4">
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/hGgmlUeNU-Q" allowfullscreen></iframe>
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/R-5PrnwUSD0" allowfullscreen></iframe>
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/m_xp1reL8jQ" allowfullscreen></iframe>
+          <iframe class="w-full h-40" src="https://www.youtube.com/embed/eGeFTS5C1fg" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <div class="text-center mt-8">
+        <a href="https://t.me/merkoso" target="_blank" class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Contact</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
